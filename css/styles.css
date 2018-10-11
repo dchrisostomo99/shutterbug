@@ -1,0 +1,81 @@
+.container {
+    max-width: 928px;
+}
+
+.main {
+    background-image: url(../images/intro.jpg);
+    background-size: cover;
+    height: 550px;
+    padding-top: 25px;
+}
+
+.main h1 {
+     font-family: 'Permanent Marker', cursive;
+    font-size: 72px;
+    text-shadow: 1px 1px 4px tomato;
+    transition: text-shadow 1s;
+}
+
+.main h1:hover {
+    text-shadow: 6px 6px 8px rgba(74, 12, 82, 0.8);
+}
+
+/* .main h2 {
+    font-family
+} */
+
+.main a {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    background-color: rgba(107, 64, 224, 0.603); 
+    border-radius: 32px;
+    color: white;
+    transition: box-shadow 1s, width 2s;
+}
+
+.btn:hover{
+    box-shadow: 2px 2px 2px black;
+    
+}
+
+.section .row {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.row p {
+    font-family: 'Monoton', cursive;
+    font-size: 26px;
+    color: rgb(64, 50, 255)
+
+}
+
+.store {
+    text-align: center;
+    padding: 30px 0;
+    /* border-bottom: 1px solid rgb(0, 0, 0); */
+}
+
+.footer {
+    background-color: rgba(12, 51, 82, 0.479);
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    
+}
+
+.footer ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.col-md-4 {
+    text-align: center;
+    background-color: rgb(240, 224, 239);
+}
+
+ 
+  
